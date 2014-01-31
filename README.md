@@ -14,7 +14,7 @@ Build:
 	> mvn eclipse:eclipse
 
 	
-Contains a Java implmentation of the Redis auto complete example:	
+Contains a Java implmentation of the Redis auto complete example (http://oldblog.antirez.com/post/autocomplete-with-redis.html):	
 
 	* mvn package
 	* java -jar target\uber-jedis-demo-1.0.0-SNAPSHOT.jar marcelle
