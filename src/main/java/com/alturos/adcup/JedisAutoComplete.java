@@ -28,14 +28,23 @@ public class JedisAutoComplete {
 		
 		JedisAutoComplete ac = new JedisAutoComplete();
 		
+		if (args == null || args.length == 0) {
+			LOG.warn("Usage:  pass auto complete string");
+			return;
+		}
+			
+		
+		
 		try {
 			// load auto complete entries
 			ac.loadEntriesIntoRedis();
 			
+			String prefix = args[0];
 			// do some auto complete tests
-			doTestComplete(ac, "marcell");
-			doTestComplete(ac, "andr");
-			doTestComplete(ac, "lor");
+			doTestComplete(ac, prefix );
+//			doTestComplete(ac, "marcell");
+//			doTestComplete(ac, "andr");
+//			doTestComplete(ac, "lor");
 			
 		} catch (FileNotFoundException e) {			
 			e.printStackTrace();
