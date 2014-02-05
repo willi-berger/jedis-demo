@@ -10,6 +10,8 @@ import junit.framework.TestSuite;
  * test commit with GitGui
  * test commit with GitGui from ws-2
  * merged to xytestName
+ * eclipse xytestNameEclipse
+ * mergerd with WS2 checkin xytestNameGITGUI
  */
 public class AppTest 
     extends TestCase
@@ -19,9 +21,9 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String xytestName )
+    public AppTest( String xytestNameEclipse )
     {
-        super( xytestName );
+        super( xytestNameEclipse );
     }
 
     /**
