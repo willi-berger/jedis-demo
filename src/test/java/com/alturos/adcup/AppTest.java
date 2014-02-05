@@ -9,6 +9,7 @@ import junit.framework.TestSuite;
  * test commit from eclipse
  * test commit with GitGui
  * test commit with GitGui from ws-2
+ * merged to xytestName
  */
 public class AppTest 
     extends TestCase
@@ -18,9 +19,9 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String ytestName )
+    public AppTest( String xytestName )
     {
-        super( ytestName );
+        super( xytestName );
     }
 
     /**
