@@ -14,6 +14,10 @@ import org.apache.commons.logging.LogFactory;
 
 import redis.clients.jedis.Jedis;
 
+/**
+ * @author berwil
+ *
+ */
 public class JedisAutoComplete {
 	
 	private static final Log LOG = LogFactory.getLog(JedisAutoComplete.class);

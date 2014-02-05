@@ -13,6 +13,7 @@ import junit.framework.TestSuite;
  * eclipse xytestNameEclipse
  * mergerd with WS2 checkin xytestNameGITGUI
  * edited in eclipse 15:14
+ * 
  */
 public class AppTest 
     extends TestCase
