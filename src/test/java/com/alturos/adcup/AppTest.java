@@ -8,6 +8,7 @@ import junit.framework.TestSuite;
  * Unit test for simple App.
  * test commit from eclipse
  * test commit with GitGui
+ * test commit with GitGui from ws-2
  */
 public class AppTest 
     extends TestCase
