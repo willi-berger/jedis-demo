@@ -15,6 +15,9 @@ public class JedisHelloWorldDemoApp
 {
 	static final Log LOG = LogFactory.getLog(JedisHelloWorldDemoApp.class);
 	
+	public void hello() {
+	
+	}
 	
     public static void main( String[] args )
     {
