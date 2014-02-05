@@ -8,6 +8,7 @@ import redis.clients.jedis.Jedis;
 
 /**
  * Hello world!
+ * updated in WS2
  *
  */
 public class JedisHelloWorldDemoApp 

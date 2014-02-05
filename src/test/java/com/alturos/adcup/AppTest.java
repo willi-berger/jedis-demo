@@ -13,7 +13,6 @@ import junit.framework.TestSuite;
  * eclipse xytestNameEclipse
  * mergerd with WS2 checkin xytestNameGITGUI
  * edited in eclipse 15:14
- * 
  */
 public class AppTest 
     extends TestCase
@@ -23,9 +22,9 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String xytestNameEclipse )
+    public AppTest( String xytestNameGITGUI )
     {
-        super( xytestNameEclipse );
+        super( xytestNameGITGUI );
     }
 
     /**
