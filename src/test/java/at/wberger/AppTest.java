@@ -1,4 +1,4 @@
-package com.alturos.adcup;
+package at.wberger;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

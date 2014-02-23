@@ -1,4 +1,4 @@
-package com.alturos.adcup;
+package at.wberger;
 
 import java.io.BufferedReader;
 import java.io.File;
